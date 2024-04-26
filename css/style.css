@@ -445,3 +445,15 @@
 .text-primary {
   color: #f0d274 !important;
 }*/
+.image1 {
+    width: 50px;
+    padding-bottom: 6px;
+    padding-right:4px;
+}
+.red{
+    color:red;
+}
+/*.team-item  {
+    cursor: pointer;
+}*/
+

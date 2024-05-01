@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  color: white;
+}
+
+.Background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  z-index: -1;
+}
+
+
+.align {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row; 
+  margin: 90px;
+}
+
+.card {
+  margin-top: 100px;
+  margin-left: 200px;
+  height: 100%;
+  max-height: 480px;
+  width: 396px;
+  background: #121212;
+  opacity: 0.6;
+}
+
+.head {
+  width: 100%;
+  display: flex;
+  height: 72px;
+  border-bottom: 1px solid #373737;
+  justify-content: space-between;
+}
+
+.head a {
+  height: 100%;
+  padding: 0 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(140, 140, 140);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.head label{
+  height: 100%;
+  padding: 0 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.head .selected {
+  position: relative;
+  color: #f0d274;
+  font-weight: bold;
+  border-bottom: 5px solid #f0d274;
+}
+
+
+
+form {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  padding: 44px 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  transition: right 0.2s;
+  text-align: center;
+}
+
+.inputs, .inputs a {
+  width: 100%;
+  padding-top: 6px;
+  color: white;
+}
+
+.input {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.inputs input {
+  width: 100%;
+  font-size: 17px;
+  background: #1c1c1c;
+  border-radius: 8px;
+  padding: 16px 18px 16px 51px;
+  color: white;
+  opacity: 0.99;
+}
+
+.input img {
+  width: 16px;
+  position: absolute;
+  left: 19px;
+}
+
+button, input[type=submit] {
+  display: block;
+  background: #f0d274;
+  padding: 14px 52px;
+  border-radius: 12px;
+  border-color: #f0d274;
+  color: black;
+  font-weight: 700;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo img {
+    margin-top: 60px;
+    height: 150px;
+}
+
+.site-name {
+    font-size: 1.8em;
+    margin-top: 60px;
+    padding: 10px;
+    color: black;
+    background: white;
+    opacity: 0.8;
+}
+

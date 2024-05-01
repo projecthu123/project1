@@ -1,0 +1,134 @@
+
+body {
+    background-color: #ffffff ;
+    /* لون الخلفية */
+    margin: 1.5rem 1rem;
+    /* كلشي كاتبو بصفحة بعد من فوق 1.5 ومن تحت 1.5 وعن اليمين ويسار ببمقدار 1*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* خط الصفحة كاملة */
+}
+
+.cv,
+.countact {
+    position: absolute;
+    /* محتويات الصفحة بالنسبة للبدي كلو*/
+    margin: 2rem;
+    /*بعد الصفحة عن الحدود*/
+    top: -90px;
+    /*البعد من فوق*/
+    left: 500px;
+    /*البعد من اليسار*/
+    padding: 200px;
+    /*الهوامش حوالين الكلام*/
+
+}
+
+.countact {
+    margin-top: 11rem;
+    /* البعد من فوق */
+}
+
+.cv2 img {
+
+    /* border-style: 1px solid #ffd400; */
+    /* background-size: cover; */
+    max-width: 450px;
+    height: 345px;
+    border-radius: 30px;
+    /* الطعجة عند الصورة */
+}
+
+ol {
+    margin: 15px 0 28px;
+    /* font-size: 16px; */
+    /* حجم الخط */
+    line-height: 35px;
+    /* لو كانو سطرين فوق بعض هاي المسافة بينهم */
+    color: #06BBCC;
+    font-size: 18px;
+    font-weight: bold;
+    /* سمك الخط */
+}
+ul {
+    margin: 15px 0 28px;
+    /* font-size: 16px; */
+    /* حجم الخط */
+    line-height: 35px;
+    /* لو كانو سطرين فوق بعض هاي المسافة بينهم */
+    color: 06BBCC;
+    font-size: 18px;
+    font-weight: bold;
+    /* سمك الخط */
+}
+h1 {
+    font-size: 20px;
+    line-height: 62px;
+    font-weight: 700;
+    /* margin: 18px 0 10px; */
+    position: relative;
+    /* هاي بتخلي العنوان h1 اساسي بصفحة بنسبة ل البودي */
+    padding-left: 70px;
+   /*محاذاة من الشمال*/
+    color: #06BBCC;
+    text-transform: uppercase;
+    
+    /*شكل الحروف كلهم كابيتال**/
+}
+/*هاي عشان انعمل الخط الي قبل اسمي */
+h1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 29px;
+    height: 4px;
+    width: 40px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    background-color: #06BBCC;
+}
+h4 {
+    font-size: 30px;
+    line-height: 62px;
+    font-weight: 700;
+    /* margin: 18px 0 10px; */
+    padding-left: 70px;
+   /*محاذاة من الشمال*/
+    color: #bf1414;
+    text-transform: uppercase;
+    /*شكل الحروف كلهم كابيتال**/
+}
+h5{
+    padding-left: 70px;
+   /*محاذاة من الشمال*/
+    color: #bf1414;
+}
+
+
+h2 {
+    color: #000000;
+}
+
+.MR {
+    color: #06BBCC;
+    font-size: 1.4rem;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+
+h3 {
+    font-size: 30px;
+    line-height: 62px;
+    font-weight: 700;
+    /* margin: 18px 0 10px; */
+    position: relative;
+    /* هاي بتخلي العنوان h1 اساسي بصفحة بنسبة ل البودي */
+    padding-left: 70px;
+   /*محاذاة من الشمال*/
+    color: #06BBCC;
+    text-transform: uppercase;
+    /*شكل الحروف كلهم كابيتال**/
+}
+
+
